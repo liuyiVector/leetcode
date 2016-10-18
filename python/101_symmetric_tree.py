@@ -48,8 +48,8 @@ class Solution(object):
                 nodes.append(item.left)
                 nodes.append(item.right)
         return True
-        
-    # TODO add recursive method
+
+    # TODO add recursive method,对称的数中序遍历也是对称的，所以只要中序遍历就可以了
     def isSymmetric(self, root):
         """
         :type root: TreeNode
